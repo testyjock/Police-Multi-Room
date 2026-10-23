@@ -23,7 +23,7 @@ export async function POST(request) {
     const token = process.env.LINE_CHANNEL_ACCESS_TOKEN;
     await processEvents(body.events, {
       supabase: serverSupabase(),
-      reply: (replyToken, text) => lineReply(replyToken, text),
+      reply: (replyToken, text) => lineReply(token, replyToken, text),
       adminPassword: process.env.ADMIN_PASSWORD,
     });
   }
