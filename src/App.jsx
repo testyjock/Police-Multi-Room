@@ -148,7 +148,7 @@ const REMIND_MIN = 10;
 // เปลี่ยนเป็น true เมื่อตั้งค่าฝั่งเซิร์ฟเวอร์ตามไฟล์ LINE-SETUP.md เสร็จแล้ว (ถ้ายังไม่เสร็จ ให้เป็น false เพื่อซ่อนตัวเลือกนี้)
 const LINE_ENABLED = true;
 // ลิงก์เพิ่มเพื่อนบัญชี LINE Official Account
-const LINE_ADD_FRIEND_URL = "https://lin.ee/olDb1HV";
+const LINE_ADD_FRIEND_URL = "https://lin.ee/VyMsPvw";
 const LINK_CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
 const randomChars = (n) => {
   const arr = new Uint32Array(n);
