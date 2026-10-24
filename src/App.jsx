@@ -963,6 +963,13 @@ export default function App() {
         </div>
       )}
 
+  <div className="app-footer">
+        <div>พบปัญหาการใช้งาน หรือมีข้อสงสัย?</div>
+        <a className="contact-btn" href={LINE_CONTACT_URL} target="_blank" rel="noopener noreferrer">
+          แจ้งปัญหา / ติดต่อผู้ดูแลทาง LINE
+        </a>
+      </div>
+
       {selected && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
